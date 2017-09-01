@@ -1,0 +1,40 @@
+<style>
+	@keyframes buttonanimation{
+		from{padding:10px 20px;}
+		to{padding:15px 25px;}
+		
+	}
+	.button{
+		display:inline-block;
+		width:80px;
+		height:40px;
+		background: #fc3;
+		text-decoration: none;
+		border:solid 1px #999;
+		text-align: center;
+		padding: 10px 20px;
+		margin: 10px;
+		color:white;
+		text-shadow: 1px 2px rgba(0,0,0,0.2);
+		background: linear-gradient(#F89406
+,#F27935);
+	}
+	.button:hover{
+		background-color: #888;
+		animation-name: buttonanimation;
+		
+		animation-timing-function:linear;
+		animation-fill-mode: forwards;
+		
+		
+	}
+	.button:active{
+		position: relative;
+		top:10px;
+	}
+</style>
+<body>
+<h1>CSS# Animated Button</h1>
+<a href="" class="button">Click Me</a>
+<a href="" class="button alt-button">Click Me</a>
+</body>

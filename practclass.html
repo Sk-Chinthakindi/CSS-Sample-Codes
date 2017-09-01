@@ -1,0 +1,28 @@
+<!--With the transform property, change the size of the <div> to half its width, but double its height.
+Specify that the transition of the <div> element should have a "0.5" second delay before starting.
+Apply animation effect to div
+-->
+<head>
+	<style>
+		@keyframes lab {from{ background-color: aqua;}
+			to{background-color: red;}}
+		div{
+			width: 100px;
+			height: 50px;
+			background-color: aqua;
+			/*transform: scale(0.5,2);*/
+			border: 1px solid red;
+/*			transition: width 1s linear 0.5s;*/
+			animation-name: lab;
+			animation-duration: 2s
+			
+		}
+/*		div:hover{*/
+/*			width:10px;*/
+		
+/*		}*/
+	</style>
+</head>
+<div>
+	Lab sesssion 2
+</div>
